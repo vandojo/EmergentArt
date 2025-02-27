@@ -20,7 +20,25 @@ class Cell {
     neighbours = (Cell[])append(neighbours, cell);
   }
   void calcNextState() {
-    // implement later
+   int liveCount = 0;
+   for (int i =0; i < neighbours.length; i++) {
+   if (neighbours[i].state == true) {
+   liveCount++;
+   }
+   }
+   if (state == true) {
+   if((liveCount == 2) || (liveCount ==3)) {
+   nextState = true;
+   } else {
+   nextState = false;
+   } }
+   else {
+   if (liveCount == 3) {
+   nextState = true;
+   } else {
+   nextState = false;
+   }
+   }
   }
   void drawMe() {
     state = nextState;
