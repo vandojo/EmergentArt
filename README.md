@@ -9,3 +9,10 @@ This directory contains projects relating to cellular automata, most notably Con
 Running this sketck shows Conway's game of life. Pressing the `ENTER` key takes a screenshot of the current frame.
 Example of Conway's Game of Life:
 ![Screenshot of game of life](./images/conway_gol_220.jpg)
+
+
+### Perlin noise
+
+Directory with some creations based on Perlin noise. 
+Example showing a 3D cube:
+![Screenshot of 3D Perlin noise](./images/3D_noise.jpg)
