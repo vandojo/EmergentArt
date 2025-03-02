@@ -2,7 +2,7 @@ import processing.opengl.*;
 
 float xstart, xnoise, ystart, ynoise, zstart, znoise;
 int sideLength = 200;
-int spacing = 5;
+int spacing = 10;
 void setup() {
 
 size(500, 300, P3D);
