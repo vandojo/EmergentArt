@@ -15,7 +15,7 @@ drawCircles();
 background(255);}
 
 void draw(){
-//background(155);
+//background(190);
 for (int i =0; i< _circleArr.length; i++) {
 Circle thisCirc = _circleArr[i];
 thisCirc.updateMe();
